@@ -65,10 +65,11 @@ describe('Folio-Handlebars', function () {
 
         });
 
-        describe('registerTemplate(path, options)', function () {
+        describe('registerTemplate(viewName, path, options)', function () {
 
             beforeEach(function () {
 
+                this.viewName = 'MyView';
                 this.templatePath = 'TemplatePath';
                 this.templateSource = 'TemplateSource';
                 this.templateOptions = {template: 'options'};
@@ -81,7 +82,7 @@ describe('Folio-Handlebars', function () {
                 this.mockHandlebarsInstance.compile = sinon.stub();
                 this.mockHandlebarsInstance.compile.withArgs(this.templateSource, this.templateOptions).returns(this.compiledTemplate);
 
-                this.folioHandlebars.registerTemplate(this.templatePath, this.templateOptions);
+                this.folioHandlebars.registerTemplate(this.viewName, this.templatePath, this.templateOptions);
 
             });
 
@@ -97,9 +98,9 @@ describe('Folio-Handlebars', function () {
 
             });
 
-            it('Should cache the compiled template function in the templates map', function () {
+            it('Should cache the compiled template function in the templates map using the view name', function () {
 
-                expect(this.folioHandlebars.templates).to.deep.equal({TemplatePath: this.compiledTemplate});
+                expect(this.folioHandlebars.templates).to.deep.equal({'MyView': this.compiledTemplate});
 
             });
 
