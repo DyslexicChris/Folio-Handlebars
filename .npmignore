@@ -1,3 +1,5 @@
-/.idea
+.idea
 *.iml
-
+jsdoc
+.travis.yml
+test
