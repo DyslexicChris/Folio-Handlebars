@@ -1,5 +1,5 @@
 {
-    "name": "FolioHandlebars",
+    "name": "folio-handlebars",
     "version": "0.0.1",
     "description": "Folio.js handlebars render engine",
     "main": "index.js",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/DyslexicChris/FolioHandlebars.git"
+        "url": "https://github.com/DyslexicChris/Folio-Handlebars.git"
     },
     "keywords": [
         "folio.js",
@@ -28,9 +28,9 @@
     "author": "DyslexicChris <npm@dyslexicchris.co.uk> (https://github.com/DyslexicChris)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/DyslexicChris/FolioHandlebars/issues"
+        "url": "https://github.com/DyslexicChris/Folio-Handlebars/issues"
     },
-    "homepage": "https://github.com/DyslexicChris/FolioHandlebars",
+    "homepage": "https://github.com/DyslexicChris/Folio-Handlebars",
     "dependencies": {
         "handlebars": "3.0.0"
     },
