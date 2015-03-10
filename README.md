@@ -8,17 +8,17 @@ Folio.js handlebars render engine
 
 ## Install
 
-The best way to add FolioHandlebars to your folio.js project is to use ```npm```.
+The best way to add Folio-Handlebars to your folio.js project is to use ```npm```.
 
 ```bash
-npm install FolioHandlebars --save
+npm install folio-handlebars --save
 ```
 
 ## Example Usage
 ```javascript
 // Require folio.js
 var Folio = require('folio.js');
-var FolioHandlebars = require('FolioHandlebars');
+var FolioHandlebars = require('folio-handlebars');
 
 // Create a new folio.js application
 var myApp = new Folio();
