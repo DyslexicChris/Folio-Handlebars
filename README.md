@@ -1,6 +1,7 @@
 # FolioHandlebars
 Folio.js handlebars render engine
 
+[![npm version](https://img.shields.io/npm/v/folio-handlebars.svg?style=flat)](https://www.npmjs.com/package/folio-handlebars)
 [![Build Status](https://travis-ci.org/DyslexicChris/Folio-Handlebars.svg?branch=master)](https://travis-ci.org/DyslexicChris/Folio-Handlebars)
 [![Dependency Status](https://david-dm.org/DyslexicChris/Folio-Handlebars.svg)](https://david-dm.org/DyslexicChris/Folio-Handlebars)
 [![devDependency Status](https://david-dm.org/DyslexicChris/Folio-Handlebars/dev-status.svg)](https://david-dm.org/DyslexicChris/Folio-Handlebars#info=devDependencies)
