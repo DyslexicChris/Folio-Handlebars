@@ -79,4 +79,6 @@ model    | Object | The model to be passed to the template when rendering
 
 Render a view with a model. This method should not be called directly, but via the response object. See above example.
 
+## License
+FolioHandlebars is licensed under the MIT license.
 

@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/DyslexicChris/Folio-Handlebars.git"
+        "url": "https://github.com/DyslexicChris/FolioHandlebars.git"
     },
     "keywords": [
         "folio.js",
@@ -28,9 +28,9 @@
     "author": "DyslexicChris <npm@dyslexicchris.co.uk> (https://github.com/DyslexicChris)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/DyslexicChris/Folio-Handlebars/issues"
+        "url": "https://github.com/DyslexicChris/FolioHandlebars/issues"
     },
-    "homepage": "https://github.com/DyslexicChris/Folio-Handlebars",
+    "homepage": "https://github.com/DyslexicChris/FolioHandlebars",
     "dependencies": {
         "handlebars": "3.0.0"
     },

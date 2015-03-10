@@ -3,7 +3,7 @@ var assert = require('chai').assert;
 var sinon = require('sinon');
 var mockery = require('mockery');
 
-describe('Folio-Handlebars', function () {
+describe('FolioHandlebars', function () {
 
     describe('On new', function () {
 
